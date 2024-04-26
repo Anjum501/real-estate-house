@@ -40,7 +40,7 @@ const Login = () => {
 
     } catch (error) {
         console.error("Error during Google sign in:", error);
-        alert("Google sign-in failed!");
+        // alert("Google sign-in failed!");
     }
   };
   
